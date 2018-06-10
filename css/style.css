@@ -17,3 +17,6 @@ HOMEPAGE
 .jumbotron {
   background-color: #e3f2fd;
 }
+.email-link {
+  text-decoration: none;
+}
