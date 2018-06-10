@@ -1,0 +1,2464 @@
+{
+  "data": {
+    "searchResults": {
+      "fareSummary": [
+        {
+          "fareFamily": "WGA",
+          "minimumFare": {
+            "value": "329.98",
+            "currencyCode": "USD"
+          }
+        },
+        {
+          "fareFamily": "BUS",
+          "minimumFare": {
+            "value": "521.98",
+            "currencyCode": "USD"
+          }
+        },
+        {
+          "fareFamily": "ANY",
+          "minimumFare": {
+            "value": "499.98",
+            "currencyCode": "USD"
+          }
+        }
+      ],
+      "airProducts": [
+        {
+          "originationAirportCode": "AUS",
+          "destinationAirportCode": "MDW",
+          "containsAvailability": false,
+          "containsNonstop": true,
+          "containsBeforeNoon": true,
+          "containsNoonToSix": true,
+          "containsAfterSix": true,
+          "containsTimeOfDay": true,
+          "containsStops": true,
+          "containsDirect": true,
+          "currencyCode": null,
+          "details": [
+            {
+              "originationAirportCode": "AUS",
+              "destinationAirportCode": "MDW",
+              "departureTime": "18:35",
+              "arrivalTime": "21:00",
+              "nextDay": false,
+              "stopsDetails": [
+                {
+                  "originationAirportCode": "AUS",
+                  "destinationAirportCode": "MDW",
+                  "flightNumber": "138",
+                  "legDuration": 145,
+                  "stopDuration": 0,
+                  "changePlanes": null,
+                  "departureTime": "18:35",
+                  "arrivalTime": "21:00",
+                  "departureDateTime": "2018-06-12T18:35:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T21:00:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                }
+              ],
+              "totalDuration": 145,
+              "flightNumbers": [
+                "138"
+              ],
+              "filterTags": [
+                "AFTER_SIX",
+                "NONSTOP",
+                "AVAILABLE"
+              ],
+              "departureDateTime": "2018-06-12T18:35:00.000-05:00",
+              "arrivalDateTime": "2018-06-12T21:00:00.000-05:00",
+              "fareProducts": {
+                "SENIOR": {
+                  "WGA": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  }
+                },
+                "ADULT": {
+                  "WGA": {
+                    "productId": "WGA|ADT|BLN7PNR,B,AUS,MDW,2018-06-12T18:35-05:00,2018-06-12T21:00-05:00,WN,WN,138,73W",
+                    "classOfService": "B",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "293.75",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "36.23",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "329.98",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "1763"
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": "BUS|ADT|KZBP,K,AUS,MDW,2018-06-12T18:35-05:00,2018-06-12T21:00-05:00,WN,WN,138,73W",
+                    "classOfService": "K",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "472.35",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "49.63",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "521.98",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "5669"
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": "ANY|ADT|YL,Y,AUS,MDW,2018-06-12T18:35-05:00,2018-06-12T21:00-05:00,WN,WN,138,73W",
+                    "classOfService": "Y",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "451.89",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "48.09",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "499.98",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "4519"
+                    },
+                    "waivedFare": null
+                  }
+                }
+              }
+            },
+            {
+              "originationAirportCode": "AUS",
+              "destinationAirportCode": "MDW",
+              "departureTime": "13:55",
+              "arrivalTime": "16:25",
+              "nextDay": false,
+              "stopsDetails": [
+                {
+                  "originationAirportCode": "AUS",
+                  "destinationAirportCode": "MDW",
+                  "flightNumber": "2532",
+                  "legDuration": 150,
+                  "stopDuration": 0,
+                  "changePlanes": null,
+                  "departureTime": "13:55",
+                  "arrivalTime": "16:25",
+                  "departureDateTime": "2018-06-12T13:55:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T16:25:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73H",
+                  "features": [
+                    "WIFI"
+                  ]
+                }
+              ],
+              "totalDuration": 150,
+              "flightNumbers": [
+                "2532"
+              ],
+              "filterTags": [
+                "NOON_TO_SIX",
+                "NONSTOP",
+                "AVAILABLE"
+              ],
+              "departureDateTime": "2018-06-12T13:55:00.000-05:00",
+              "arrivalDateTime": "2018-06-12T16:25:00.000-05:00",
+              "fareProducts": {
+                "SENIOR": {
+                  "WGA": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  }
+                },
+                "ADULT": {
+                  "WGA": {
+                    "productId": "WGA|ADT|BLN7PNR,B,AUS,MDW,2018-06-12T13:55-05:00,2018-06-12T16:25-05:00,WN,WN,2532,73H",
+                    "classOfService": "B",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "293.75",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "36.23",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "329.98",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "1763"
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": "BUS|ADT|KZBP,K,AUS,MDW,2018-06-12T13:55-05:00,2018-06-12T16:25-05:00,WN,WN,2532,73H",
+                    "classOfService": "K",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "472.35",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "49.63",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "521.98",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "5669"
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": "ANY|ADT|YL,Y,AUS,MDW,2018-06-12T13:55-05:00,2018-06-12T16:25-05:00,WN,WN,2532,73H",
+                    "classOfService": "Y",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "451.89",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "48.09",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "499.98",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "4519"
+                    },
+                    "waivedFare": null
+                  }
+                }
+              }
+            },
+            {
+              "originationAirportCode": "AUS",
+              "destinationAirportCode": "MDW",
+              "departureTime": "09:45",
+              "arrivalTime": "12:20",
+              "nextDay": false,
+              "stopsDetails": [
+                {
+                  "originationAirportCode": "AUS",
+                  "destinationAirportCode": "MDW",
+                  "flightNumber": "1943",
+                  "legDuration": 155,
+                  "stopDuration": 0,
+                  "changePlanes": null,
+                  "departureTime": "09:45",
+                  "arrivalTime": "12:20",
+                  "departureDateTime": "2018-06-12T09:45:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T12:20:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                }
+              ],
+              "totalDuration": 155,
+              "flightNumbers": [
+                "1943"
+              ],
+              "filterTags": [
+                "BEFORE_NOON",
+                "NONSTOP",
+                "AVAILABLE"
+              ],
+              "departureDateTime": "2018-06-12T09:45:00.000-05:00",
+              "arrivalDateTime": "2018-06-12T12:20:00.000-05:00",
+              "fareProducts": {
+                "SENIOR": {
+                  "WGA": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  }
+                },
+                "ADULT": {
+                  "WGA": {
+                    "productId": "WGA|ADT|BLN7PNR,B,AUS,MDW,2018-06-12T09:45-05:00,2018-06-12T12:20-05:00,WN,WN,1943,73W",
+                    "classOfService": "B",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "293.75",
+                        "currencyCode": "USD"
+                      },
+                      "seatsLeft": 1,
+                      "totalTaxesAndFees": {
+                        "value": "36.23",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "329.98",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "1763"
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": "BUS|ADT|KZBP,K,AUS,MDW,2018-06-12T09:45-05:00,2018-06-12T12:20-05:00,WN,WN,1943,73W",
+                    "classOfService": "K",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "472.35",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "49.63",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "521.98",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "5669"
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": "ANY|ADT|YL,Y,AUS,MDW,2018-06-12T09:45-05:00,2018-06-12T12:20-05:00,WN,WN,1943,73W",
+                    "classOfService": "Y",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "451.89",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "48.09",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "499.98",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "4519"
+                    },
+                    "waivedFare": null
+                  }
+                }
+              }
+            },
+            {
+              "originationAirportCode": "AUS",
+              "destinationAirportCode": "MDW",
+              "departureTime": "09:15",
+              "arrivalTime": "15:30",
+              "nextDay": false,
+              "stopsDetails": [
+                {
+                  "originationAirportCode": "AUS",
+                  "destinationAirportCode": "MCO",
+                  "flightNumber": "1980",
+                  "legDuration": 165,
+                  "stopDuration": 45,
+                  "changePlanes": false,
+                  "departureTime": "09:15",
+                  "arrivalTime": "13:00",
+                  "departureDateTime": "2018-06-12T09:15:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T13:00:00.000-04:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73H",
+                  "features": [
+                    "WIFI"
+                  ]
+                },
+                {
+                  "originationAirportCode": "MCO",
+                  "destinationAirportCode": "MDW",
+                  "flightNumber": "1980",
+                  "legDuration": 165,
+                  "stopDuration": 0,
+                  "changePlanes": null,
+                  "departureTime": "13:45",
+                  "arrivalTime": "15:30",
+                  "departureDateTime": "2018-06-12T13:45:00.000-04:00",
+                  "arrivalDateTime": "2018-06-12T15:30:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73H",
+                  "features": [
+                    "WIFI"
+                  ]
+                }
+              ],
+              "totalDuration": 375,
+              "flightNumbers": [
+                "1980"
+              ],
+              "filterTags": [
+                "BEFORE_NOON",
+                "DIRECT",
+                "STOPS",
+                "AVAILABLE"
+              ],
+              "departureDateTime": "2018-06-12T09:15:00.000-05:00",
+              "arrivalDateTime": "2018-06-12T15:30:00.000-05:00",
+              "fareProducts": {
+                "SENIOR": {
+                  "WGA": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  }
+                },
+                "ADULT": {
+                  "WGA": {
+                    "productId": "WGA|ADT|QLA7PNRO,Q,AUS,MDW,2018-06-12T09:15-05:00,2018-06-12T15:30-05:00,WN,WN,1980,73H",
+                    "classOfService": null,
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "SOLD_OUT",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": "BUS|ADT|KZBP,K,AUS,MDW,2018-06-12T09:15-05:00,2018-06-12T15:30-05:00,WN,WN,1980,73H",
+                    "classOfService": "K",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "472.35",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "53.73",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "526.08",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "5669"
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": "ANY|ADT|YL,Y,AUS,MDW,2018-06-12T09:15-05:00,2018-06-12T15:30-05:00,WN,WN,1980,73H",
+                    "classOfService": "Y",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "451.89",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "52.19",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "504.08",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "4519"
+                    },
+                    "waivedFare": null
+                  }
+                }
+              }
+            },
+            {
+              "originationAirportCode": "AUS",
+              "destinationAirportCode": "MDW",
+              "departureTime": "10:20",
+              "arrivalTime": "18:00",
+              "nextDay": false,
+              "stopsDetails": [
+                {
+                  "originationAirportCode": "AUS",
+                  "destinationAirportCode": "BOS",
+                  "flightNumber": "147",
+                  "legDuration": 250,
+                  "stopDuration": 45,
+                  "changePlanes": false,
+                  "departureTime": "10:20",
+                  "arrivalTime": "15:30",
+                  "departureDateTime": "2018-06-12T10:20:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T15:30:00.000-04:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73H",
+                  "features": [
+                    "WIFI"
+                  ]
+                },
+                {
+                  "originationAirportCode": "BOS",
+                  "destinationAirportCode": "MDW",
+                  "flightNumber": "147",
+                  "legDuration": 165,
+                  "stopDuration": 0,
+                  "changePlanes": null,
+                  "departureTime": "16:15",
+                  "arrivalTime": "18:00",
+                  "departureDateTime": "2018-06-12T16:15:00.000-04:00",
+                  "arrivalDateTime": "2018-06-12T18:00:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73H",
+                  "features": [
+                    "WIFI"
+                  ]
+                }
+              ],
+              "totalDuration": 460,
+              "flightNumbers": [
+                "147"
+              ],
+              "filterTags": [
+                "BEFORE_NOON",
+                "DIRECT",
+                "STOPS",
+                "AVAILABLE"
+              ],
+              "departureDateTime": "2018-06-12T10:20:00.000-05:00",
+              "arrivalDateTime": "2018-06-12T18:00:00.000-05:00",
+              "fareProducts": {
+                "SENIOR": {
+                  "WGA": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  }
+                },
+                "ADULT": {
+                  "WGA": {
+                    "productId": "WGA|ADT|QLA7PNRO,Q,AUS,MDW,2018-06-12T10:20-05:00,2018-06-12T18:00-05:00,WN,WN,147,73H",
+                    "classOfService": null,
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "SOLD_OUT",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": "BUS|ADT|KZBP,K,AUS,MDW,2018-06-12T10:20-05:00,2018-06-12T18:00-05:00,WN,WN,147,73H",
+                    "classOfService": "K",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "472.35",
+                        "currencyCode": "USD"
+                      },
+                      "seatsLeft": 1,
+                      "totalTaxesAndFees": {
+                        "value": "53.73",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "526.08",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "5669"
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": "ANY|ADT|YL,Y,AUS,MDW,2018-06-12T10:20-05:00,2018-06-12T18:00-05:00,WN,WN,147,73H",
+                    "classOfService": "Y",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "451.89",
+                        "currencyCode": "USD"
+                      },
+                      "seatsLeft": 1,
+                      "totalTaxesAndFees": {
+                        "value": "52.19",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "504.08",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "4519"
+                    },
+                    "waivedFare": null
+                  }
+                }
+              }
+            },
+            {
+              "originationAirportCode": "AUS",
+              "destinationAirportCode": "MDW",
+              "departureTime": "13:15",
+              "arrivalTime": "17:05",
+              "nextDay": false,
+              "stopsDetails": [
+                {
+                  "originationAirportCode": "AUS",
+                  "destinationAirportCode": "STL",
+                  "flightNumber": "1634",
+                  "legDuration": 120,
+                  "stopDuration": 45,
+                  "changePlanes": true,
+                  "departureTime": "13:15",
+                  "arrivalTime": "15:15",
+                  "departureDateTime": "2018-06-12T13:15:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T15:15:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                },
+                {
+                  "originationAirportCode": "STL",
+                  "destinationAirportCode": "MDW",
+                  "flightNumber": "2387",
+                  "legDuration": 65,
+                  "stopDuration": 0,
+                  "changePlanes": null,
+                  "departureTime": "16:00",
+                  "arrivalTime": "17:05",
+                  "departureDateTime": "2018-06-12T16:00:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T17:05:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73H",
+                  "features": [
+                    "WIFI"
+                  ]
+                }
+              ],
+              "totalDuration": 230,
+              "flightNumbers": [
+                "1634",
+                "2387"
+              ],
+              "filterTags": [
+                "NOON_TO_SIX",
+                "STOPS",
+                "AVAILABLE"
+              ],
+              "departureDateTime": "2018-06-12T13:15:00.000-05:00",
+              "arrivalDateTime": "2018-06-12T17:05:00.000-05:00",
+              "fareProducts": {
+                "SENIOR": {
+                  "WGA": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  }
+                },
+                "ADULT": {
+                  "WGA": {
+                    "productId": "WGA|ADT|QLA7PNRO,Q,AUS,STL,2018-06-12T13:15-05:00,2018-06-12T15:15-05:00,WN,WN,1634,73W|QLA7PNRO,Q,STL,MDW,2018-06-12T16:00-05:00,2018-06-12T17:05-05:00,WN,WN,2387,73H",
+                    "classOfService": "Q",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "293.02",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "44.78",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "337.80",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "1759"
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": "BUS|ADT|KZBP,K,AUS,STL,2018-06-12T13:15-05:00,2018-06-12T15:15-05:00,WN,WN,1634,73W|KZBP,K,STL,MDW,2018-06-12T16:00-05:00,2018-06-12T17:05-05:00,WN,WN,2387,73H",
+                    "classOfService": "K",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "472.35",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "58.23",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "530.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "5669"
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": "ANY|ADT|YL,Y,AUS,STL,2018-06-12T13:15-05:00,2018-06-12T15:15-05:00,WN,WN,1634,73W|YL,Y,STL,MDW,2018-06-12T16:00-05:00,2018-06-12T17:05-05:00,WN,WN,2387,73H",
+                    "classOfService": "Y",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "451.89",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "56.69",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "508.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "4519"
+                    },
+                    "waivedFare": null
+                  }
+                }
+              }
+            },
+            {
+              "originationAirportCode": "AUS",
+              "destinationAirportCode": "MDW",
+              "departureTime": "20:15",
+              "arrivalTime": "00:05",
+              "nextDay": true,
+              "stopsDetails": [
+                {
+                  "originationAirportCode": "AUS",
+                  "destinationAirportCode": "DAL",
+                  "flightNumber": "1470",
+                  "legDuration": 60,
+                  "stopDuration": 50,
+                  "changePlanes": true,
+                  "departureTime": "20:15",
+                  "arrivalTime": "21:15",
+                  "departureDateTime": "2018-06-12T20:15:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T21:15:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                },
+                {
+                  "originationAirportCode": "DAL",
+                  "destinationAirportCode": "MDW",
+                  "flightNumber": "404",
+                  "legDuration": 120,
+                  "stopDuration": 0,
+                  "changePlanes": null,
+                  "departureTime": "22:05",
+                  "arrivalTime": "00:05",
+                  "departureDateTime": "2018-06-12T22:05:00.000-05:00",
+                  "arrivalDateTime": "2018-06-13T00:05:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                }
+              ],
+              "totalDuration": 230,
+              "flightNumbers": [
+                "1470",
+                "404"
+              ],
+              "filterTags": [
+                "AFTER_SIX",
+                "STOPS",
+                "AVAILABLE"
+              ],
+              "departureDateTime": "2018-06-12T20:15:00.000-05:00",
+              "arrivalDateTime": "2018-06-13T00:05:00.000-05:00",
+              "fareProducts": {
+                "SENIOR": {
+                  "WGA": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  }
+                },
+                "ADULT": {
+                  "WGA": {
+                    "productId": "WGA|ADT|QLA7PNRO,Q,AUS,DAL,2018-06-12T20:15-05:00,2018-06-12T21:15-05:00,WN,WN,1470,73W|QLA7PNRO,Q,DAL,MDW,2018-06-12T22:05-05:00,2018-06-13T00:05-05:00,WN,WN,404,73W",
+                    "classOfService": "Q",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "293.02",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "44.78",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "337.80",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "1759"
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": "BUS|ADT|KZBP,K,AUS,DAL,2018-06-12T20:15-05:00,2018-06-12T21:15-05:00,WN,WN,1470,73W|KZBP,K,DAL,MDW,2018-06-12T22:05-05:00,2018-06-13T00:05-05:00,WN,WN,404,73W",
+                    "classOfService": "K",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "472.35",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "58.23",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "530.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "5669"
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": "ANY|ADT|YL,Y,AUS,DAL,2018-06-12T20:15-05:00,2018-06-12T21:15-05:00,WN,WN,1470,73W|YL,Y,DAL,MDW,2018-06-12T22:05-05:00,2018-06-13T00:05-05:00,WN,WN,404,73W",
+                    "classOfService": "Y",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "451.89",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "56.69",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "508.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "4519"
+                    },
+                    "waivedFare": null
+                  }
+                }
+              }
+            },
+            {
+              "originationAirportCode": "AUS",
+              "destinationAirportCode": "MDW",
+              "departureTime": "05:30",
+              "arrivalTime": "09:25",
+              "nextDay": false,
+              "stopsDetails": [
+                {
+                  "originationAirportCode": "AUS",
+                  "destinationAirportCode": "STL",
+                  "flightNumber": "2174",
+                  "legDuration": 115,
+                  "stopDuration": 60,
+                  "changePlanes": true,
+                  "departureTime": "05:30",
+                  "arrivalTime": "07:25",
+                  "departureDateTime": "2018-06-12T05:30:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T07:25:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                },
+                {
+                  "originationAirportCode": "STL",
+                  "destinationAirportCode": "MDW",
+                  "flightNumber": "324",
+                  "legDuration": 60,
+                  "stopDuration": 0,
+                  "changePlanes": null,
+                  "departureTime": "08:25",
+                  "arrivalTime": "09:25",
+                  "departureDateTime": "2018-06-12T08:25:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T09:25:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                }
+              ],
+              "totalDuration": 235,
+              "flightNumbers": [
+                "2174",
+                "324"
+              ],
+              "filterTags": [
+                "BEFORE_NOON",
+                "STOPS",
+                "AVAILABLE"
+              ],
+              "departureDateTime": "2018-06-12T05:30:00.000-05:00",
+              "arrivalDateTime": "2018-06-12T09:25:00.000-05:00",
+              "fareProducts": {
+                "SENIOR": {
+                  "WGA": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  }
+                },
+                "ADULT": {
+                  "WGA": {
+                    "productId": "WGA|ADT|QLA7PNRO,Q,AUS,STL,2018-06-12T05:30-05:00,2018-06-12T07:25-05:00,WN,WN,2174,73W|QLA7PNRO,Q,STL,MDW,2018-06-12T08:25-05:00,2018-06-12T09:25-05:00,WN,WN,324,73W",
+                    "classOfService": "Q",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "293.02",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "44.78",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "337.80",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "1759"
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": "BUS|ADT|KZBP,K,AUS,STL,2018-06-12T05:30-05:00,2018-06-12T07:25-05:00,WN,WN,2174,73W|KZBP,K,STL,MDW,2018-06-12T08:25-05:00,2018-06-12T09:25-05:00,WN,WN,324,73W",
+                    "classOfService": "K",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "472.35",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "58.23",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "530.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "5669"
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": "ANY|ADT|YL,Y,AUS,STL,2018-06-12T05:30-05:00,2018-06-12T07:25-05:00,WN,WN,2174,73W|YL,Y,STL,MDW,2018-06-12T08:25-05:00,2018-06-12T09:25-05:00,WN,WN,324,73W",
+                    "classOfService": "Y",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "451.89",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "56.69",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "508.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "4519"
+                    },
+                    "waivedFare": null
+                  }
+                }
+              }
+            },
+            {
+              "originationAirportCode": "AUS",
+              "destinationAirportCode": "MDW",
+              "departureTime": "19:10",
+              "arrivalTime": "23:10",
+              "nextDay": false,
+              "stopsDetails": [
+                {
+                  "originationAirportCode": "AUS",
+                  "destinationAirportCode": "BNA",
+                  "flightNumber": "251",
+                  "legDuration": 125,
+                  "stopDuration": 35,
+                  "changePlanes": true,
+                  "departureTime": "19:10",
+                  "arrivalTime": "21:15",
+                  "departureDateTime": "2018-06-12T19:10:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T21:15:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                },
+                {
+                  "originationAirportCode": "BNA",
+                  "destinationAirportCode": "MDW",
+                  "flightNumber": "101",
+                  "legDuration": 80,
+                  "stopDuration": 0,
+                  "changePlanes": null,
+                  "departureTime": "21:50",
+                  "arrivalTime": "23:10",
+                  "departureDateTime": "2018-06-12T21:50:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T23:10:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                }
+              ],
+              "totalDuration": 240,
+              "flightNumbers": [
+                "251",
+                "101"
+              ],
+              "filterTags": [
+                "AFTER_SIX",
+                "STOPS",
+                "AVAILABLE"
+              ],
+              "departureDateTime": "2018-06-12T19:10:00.000-05:00",
+              "arrivalDateTime": "2018-06-12T23:10:00.000-05:00",
+              "fareProducts": {
+                "SENIOR": {
+                  "WGA": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  }
+                },
+                "ADULT": {
+                  "WGA": {
+                    "productId": "WGA|ADT|QLA7PNRO,Q,AUS,BNA,2018-06-12T19:10-05:00,2018-06-12T21:15-05:00,WN,WN,251,73W|QLA7PNRO,Q,BNA,MDW,2018-06-12T21:50-05:00,2018-06-12T23:10-05:00,WN,WN,101,73W",
+                    "classOfService": "Q",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "293.02",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "44.78",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "337.80",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "1759"
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": "BUS|ADT|KZBP,K,AUS,BNA,2018-06-12T19:10-05:00,2018-06-12T21:15-05:00,WN,WN,251,73W|KZBP,K,BNA,MDW,2018-06-12T21:50-05:00,2018-06-12T23:10-05:00,WN,WN,101,73W",
+                    "classOfService": "K",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "472.35",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "58.23",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "530.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "5669"
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": "ANY|ADT|YL,Y,AUS,BNA,2018-06-12T19:10-05:00,2018-06-12T21:15-05:00,WN,WN,251,73W|YL,Y,BNA,MDW,2018-06-12T21:50-05:00,2018-06-12T23:10-05:00,WN,WN,101,73W",
+                    "classOfService": "Y",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "451.89",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "56.69",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "508.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "4519"
+                    },
+                    "waivedFare": null
+                  }
+                }
+              }
+            },
+            {
+              "originationAirportCode": "AUS",
+              "destinationAirportCode": "MDW",
+              "departureTime": "18:10",
+              "arrivalTime": "22:20",
+              "nextDay": false,
+              "stopsDetails": [
+                {
+                  "originationAirportCode": "AUS",
+                  "destinationAirportCode": "HOU",
+                  "flightNumber": "797",
+                  "legDuration": 50,
+                  "stopDuration": 50,
+                  "changePlanes": true,
+                  "departureTime": "18:10",
+                  "arrivalTime": "19:00",
+                  "departureDateTime": "2018-06-12T18:10:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T19:00:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                },
+                {
+                  "originationAirportCode": "HOU",
+                  "destinationAirportCode": "MDW",
+                  "flightNumber": "1468",
+                  "legDuration": 150,
+                  "stopDuration": 0,
+                  "changePlanes": null,
+                  "departureTime": "19:50",
+                  "arrivalTime": "22:20",
+                  "departureDateTime": "2018-06-12T19:50:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T22:20:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                }
+              ],
+              "totalDuration": 250,
+              "flightNumbers": [
+                "797",
+                "1468"
+              ],
+              "filterTags": [
+                "AFTER_SIX",
+                "STOPS",
+                "AVAILABLE"
+              ],
+              "departureDateTime": "2018-06-12T18:10:00.000-05:00",
+              "arrivalDateTime": "2018-06-12T22:20:00.000-05:00",
+              "fareProducts": {
+                "SENIOR": {
+                  "WGA": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  }
+                },
+                "ADULT": {
+                  "WGA": {
+                    "productId": "WGA|ADT|QLA7PNRO,Q,AUS,HOU,2018-06-12T18:10-05:00,2018-06-12T19:00-05:00,WN,WN,797,73W|QLA7PNRO,Q,HOU,MDW,2018-06-12T19:50-05:00,2018-06-12T22:20-05:00,WN,WN,1468,73W",
+                    "classOfService": "Q",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "293.02",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "44.78",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "337.80",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "1759"
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": "BUS|ADT|KZBP,K,AUS,HOU,2018-06-12T18:10-05:00,2018-06-12T19:00-05:00,WN,WN,797,73W|KZBP,K,HOU,MDW,2018-06-12T19:50-05:00,2018-06-12T22:20-05:00,WN,WN,1468,73W",
+                    "classOfService": "K",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "472.35",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "58.23",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "530.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "5669"
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": "ANY|ADT|YL,Y,AUS,HOU,2018-06-12T18:10-05:00,2018-06-12T19:00-05:00,WN,WN,797,73W|YL,Y,HOU,MDW,2018-06-12T19:50-05:00,2018-06-12T22:20-05:00,WN,WN,1468,73W",
+                    "classOfService": "Y",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "451.89",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "56.69",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "508.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "4519"
+                    },
+                    "waivedFare": null
+                  }
+                }
+              }
+            },
+            {
+              "originationAirportCode": "AUS",
+              "destinationAirportCode": "MDW",
+              "departureTime": "07:05",
+              "arrivalTime": "11:20",
+              "nextDay": false,
+              "stopsDetails": [
+                {
+                  "originationAirportCode": "AUS",
+                  "destinationAirportCode": "BNA",
+                  "flightNumber": "1341",
+                  "legDuration": 125,
+                  "stopDuration": 40,
+                  "changePlanes": true,
+                  "departureTime": "07:05",
+                  "arrivalTime": "09:10",
+                  "departureDateTime": "2018-06-12T07:05:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T09:10:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                },
+                {
+                  "originationAirportCode": "BNA",
+                  "destinationAirportCode": "MDW",
+                  "flightNumber": "1489",
+                  "legDuration": 90,
+                  "stopDuration": 0,
+                  "changePlanes": null,
+                  "departureTime": "09:50",
+                  "arrivalTime": "11:20",
+                  "departureDateTime": "2018-06-12T09:50:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T11:20:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                }
+              ],
+              "totalDuration": 255,
+              "flightNumbers": [
+                "1341",
+                "1489"
+              ],
+              "filterTags": [
+                "BEFORE_NOON",
+                "STOPS",
+                "AVAILABLE"
+              ],
+              "departureDateTime": "2018-06-12T07:05:00.000-05:00",
+              "arrivalDateTime": "2018-06-12T11:20:00.000-05:00",
+              "fareProducts": {
+                "SENIOR": {
+                  "WGA": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  }
+                },
+                "ADULT": {
+                  "WGA": {
+                    "productId": "WGA|ADT|QLA7PNRO,Q,AUS,BNA,2018-06-12T07:05-05:00,2018-06-12T09:10-05:00,WN,WN,1341,73W|QLA7PNRO,Q,BNA,MDW,2018-06-12T09:50-05:00,2018-06-12T11:20-05:00,WN,WN,1489,73W",
+                    "classOfService": "Q",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "293.02",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "44.78",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "337.80",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "1759"
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": "BUS|ADT|KZBP,K,AUS,BNA,2018-06-12T07:05-05:00,2018-06-12T09:10-05:00,WN,WN,1341,73W|KZBP,K,BNA,MDW,2018-06-12T09:50-05:00,2018-06-12T11:20-05:00,WN,WN,1489,73W",
+                    "classOfService": "K",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "472.35",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "58.23",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "530.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "5669"
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": "ANY|ADT|YL,Y,AUS,BNA,2018-06-12T07:05-05:00,2018-06-12T09:10-05:00,WN,WN,1341,73W|YL,Y,BNA,MDW,2018-06-12T09:50-05:00,2018-06-12T11:20-05:00,WN,WN,1489,73W",
+                    "classOfService": "Y",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "451.89",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "56.69",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "508.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "4519"
+                    },
+                    "waivedFare": null
+                  }
+                }
+              }
+            },
+            {
+              "originationAirportCode": "AUS",
+              "destinationAirportCode": "MDW",
+              "departureTime": "15:20",
+              "arrivalTime": "19:35",
+              "nextDay": false,
+              "stopsDetails": [
+                {
+                  "originationAirportCode": "AUS",
+                  "destinationAirportCode": "HOU",
+                  "flightNumber": "1593",
+                  "legDuration": 55,
+                  "stopDuration": 50,
+                  "changePlanes": true,
+                  "departureTime": "15:20",
+                  "arrivalTime": "16:15",
+                  "departureDateTime": "2018-06-12T15:20:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T16:15:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                },
+                {
+                  "originationAirportCode": "HOU",
+                  "destinationAirportCode": "MDW",
+                  "flightNumber": "865",
+                  "legDuration": 150,
+                  "stopDuration": 0,
+                  "changePlanes": null,
+                  "departureTime": "17:05",
+                  "arrivalTime": "19:35",
+                  "departureDateTime": "2018-06-12T17:05:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T19:35:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73H",
+                  "features": [
+                    "WIFI"
+                  ]
+                }
+              ],
+              "totalDuration": 255,
+              "flightNumbers": [
+                "1593",
+                "865"
+              ],
+              "filterTags": [
+                "NOON_TO_SIX",
+                "STOPS",
+                "AVAILABLE"
+              ],
+              "departureDateTime": "2018-06-12T15:20:00.000-05:00",
+              "arrivalDateTime": "2018-06-12T19:35:00.000-05:00",
+              "fareProducts": {
+                "SENIOR": {
+                  "WGA": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  }
+                },
+                "ADULT": {
+                  "WGA": {
+                    "productId": "WGA|ADT|QLA7PNRO,Q,AUS,HOU,2018-06-12T15:20-05:00,2018-06-12T16:15-05:00,WN,WN,1593,73W|QLA7PNRO,Q,HOU,MDW,2018-06-12T17:05-05:00,2018-06-12T19:35-05:00,WN,WN,865,73H",
+                    "classOfService": "Q",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "293.02",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "44.78",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "337.80",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "1759"
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": "BUS|ADT|KZBP,K,AUS,HOU,2018-06-12T15:20-05:00,2018-06-12T16:15-05:00,WN,WN,1593,73W|KZBP,K,HOU,MDW,2018-06-12T17:05-05:00,2018-06-12T19:35-05:00,WN,WN,865,73H",
+                    "classOfService": "K",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "472.35",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "58.23",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "530.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "5669"
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": "ANY|ADT|YL,Y,AUS,HOU,2018-06-12T15:20-05:00,2018-06-12T16:15-05:00,WN,WN,1593,73W|YL,Y,HOU,MDW,2018-06-12T17:05-05:00,2018-06-12T19:35-05:00,WN,WN,865,73H",
+                    "classOfService": "Y",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "451.89",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "56.69",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "508.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "4519"
+                    },
+                    "waivedFare": null
+                  }
+                }
+              }
+            },
+            {
+              "originationAirportCode": "AUS",
+              "destinationAirportCode": "MDW",
+              "departureTime": "12:40",
+              "arrivalTime": "17:00",
+              "nextDay": false,
+              "stopsDetails": [
+                {
+                  "originationAirportCode": "AUS",
+                  "destinationAirportCode": "HOU",
+                  "flightNumber": "2473",
+                  "legDuration": 60,
+                  "stopDuration": 50,
+                  "changePlanes": true,
+                  "departureTime": "12:40",
+                  "arrivalTime": "13:40",
+                  "departureDateTime": "2018-06-12T12:40:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T13:40:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                },
+                {
+                  "originationAirportCode": "HOU",
+                  "destinationAirportCode": "MDW",
+                  "flightNumber": "2133",
+                  "legDuration": 150,
+                  "stopDuration": 0,
+                  "changePlanes": null,
+                  "departureTime": "14:30",
+                  "arrivalTime": "17:00",
+                  "departureDateTime": "2018-06-12T14:30:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T17:00:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                }
+              ],
+              "totalDuration": 260,
+              "flightNumbers": [
+                "2473",
+                "2133"
+              ],
+              "filterTags": [
+                "NOON_TO_SIX",
+                "STOPS",
+                "AVAILABLE"
+              ],
+              "departureDateTime": "2018-06-12T12:40:00.000-05:00",
+              "arrivalDateTime": "2018-06-12T17:00:00.000-05:00",
+              "fareProducts": {
+                "SENIOR": {
+                  "WGA": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  }
+                },
+                "ADULT": {
+                  "WGA": {
+                    "productId": "WGA|ADT|QLA7PNRO,Q,AUS,HOU,2018-06-12T12:40-05:00,2018-06-12T13:40-05:00,WN,WN,2473,73W|QLA7PNRO,Q,HOU,MDW,2018-06-12T14:30-05:00,2018-06-12T17:00-05:00,WN,WN,2133,73W",
+                    "classOfService": "Q",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "293.02",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "44.78",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "337.80",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "1759"
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": "BUS|ADT|KZBP,K,AUS,HOU,2018-06-12T12:40-05:00,2018-06-12T13:40-05:00,WN,WN,2473,73W|KZBP,K,HOU,MDW,2018-06-12T14:30-05:00,2018-06-12T17:00-05:00,WN,WN,2133,73W",
+                    "classOfService": "K",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "472.35",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "58.23",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "530.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "5669"
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": "ANY|ADT|YL,Y,AUS,HOU,2018-06-12T12:40-05:00,2018-06-12T13:40-05:00,WN,WN,2473,73W|YL,Y,HOU,MDW,2018-06-12T14:30-05:00,2018-06-12T17:00-05:00,WN,WN,2133,73W",
+                    "classOfService": "Y",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "451.89",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "56.69",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "508.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "4519"
+                    },
+                    "waivedFare": null
+                  }
+                }
+              }
+            },
+            {
+              "originationAirportCode": "AUS",
+              "destinationAirportCode": "MDW",
+              "departureTime": "05:30",
+              "arrivalTime": "10:10",
+              "nextDay": false,
+              "stopsDetails": [
+                {
+                  "originationAirportCode": "AUS",
+                  "destinationAirportCode": "DAL",
+                  "flightNumber": "2556",
+                  "legDuration": 60,
+                  "stopDuration": 90,
+                  "changePlanes": true,
+                  "departureTime": "05:30",
+                  "arrivalTime": "06:30",
+                  "departureDateTime": "2018-06-12T05:30:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T06:30:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                },
+                {
+                  "originationAirportCode": "DAL",
+                  "destinationAirportCode": "MDW",
+                  "flightNumber": "534",
+                  "legDuration": 130,
+                  "stopDuration": 0,
+                  "changePlanes": null,
+                  "departureTime": "08:00",
+                  "arrivalTime": "10:10",
+                  "departureDateTime": "2018-06-12T08:00:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T10:10:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73H",
+                  "features": [
+                    "WIFI"
+                  ]
+                }
+              ],
+              "totalDuration": 280,
+              "flightNumbers": [
+                "2556",
+                "534"
+              ],
+              "filterTags": [
+                "BEFORE_NOON",
+                "STOPS",
+                "AVAILABLE"
+              ],
+              "departureDateTime": "2018-06-12T05:30:00.000-05:00",
+              "arrivalDateTime": "2018-06-12T10:10:00.000-05:00",
+              "fareProducts": {
+                "SENIOR": {
+                  "WGA": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  }
+                },
+                "ADULT": {
+                  "WGA": {
+                    "productId": "WGA|ADT|QLA7PNRO,Q,AUS,DAL,2018-06-12T05:30-05:00,2018-06-12T06:30-05:00,WN,WN,2556,73W|QLA7PNRO,Q,DAL,MDW,2018-06-12T08:00-05:00,2018-06-12T10:10-05:00,WN,WN,534,73H",
+                    "classOfService": "Q",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "293.02",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "44.78",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "337.80",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "1759"
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": "BUS|ADT|KZBP,K,AUS,DAL,2018-06-12T05:30-05:00,2018-06-12T06:30-05:00,WN,WN,2556,73W|KZBP,K,DAL,MDW,2018-06-12T08:00-05:00,2018-06-12T10:10-05:00,WN,WN,534,73H",
+                    "classOfService": "K",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "472.35",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "58.23",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "530.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "5669"
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": "ANY|ADT|YL,Y,AUS,DAL,2018-06-12T05:30-05:00,2018-06-12T06:30-05:00,WN,WN,2556,73W|YL,Y,DAL,MDW,2018-06-12T08:00-05:00,2018-06-12T10:10-05:00,WN,WN,534,73H",
+                    "classOfService": "Y",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "451.89",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "56.69",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "508.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "4519"
+                    },
+                    "waivedFare": null
+                  }
+                }
+              }
+            },
+            {
+              "originationAirportCode": "AUS",
+              "destinationAirportCode": "MDW",
+              "departureTime": "11:40",
+              "arrivalTime": "16:20",
+              "nextDay": false,
+              "stopsDetails": [
+                {
+                  "originationAirportCode": "AUS",
+                  "destinationAirportCode": "DAL",
+                  "flightNumber": "2385",
+                  "legDuration": 60,
+                  "stopDuration": 85,
+                  "changePlanes": true,
+                  "departureTime": "11:40",
+                  "arrivalTime": "12:40",
+                  "departureDateTime": "2018-06-12T11:40:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T12:40:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                },
+                {
+                  "originationAirportCode": "DAL",
+                  "destinationAirportCode": "MDW",
+                  "flightNumber": "2453",
+                  "legDuration": 135,
+                  "stopDuration": 0,
+                  "changePlanes": null,
+                  "departureTime": "14:05",
+                  "arrivalTime": "16:20",
+                  "departureDateTime": "2018-06-12T14:05:00.000-05:00",
+                  "arrivalDateTime": "2018-06-12T16:20:00.000-05:00",
+                  "operatingCarrierCode": "WN",
+                  "marketingCarrierCode": "WN",
+                  "aircraftEquipmentType": "73W",
+                  "features": [
+                    "WIFI"
+                  ]
+                }
+              ],
+              "totalDuration": 280,
+              "flightNumbers": [
+                "2385",
+                "2453"
+              ],
+              "filterTags": [
+                "BEFORE_NOON",
+                "STOPS",
+                "AVAILABLE"
+              ],
+              "departureDateTime": "2018-06-12T11:40:00.000-05:00",
+              "arrivalDateTime": "2018-06-12T16:20:00.000-05:00",
+              "fareProducts": {
+                "SENIOR": {
+                  "WGA": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": null,
+                    "classOfService": null,
+                    "passengerType": null,
+                    "availabilityStatus": "UNAVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+
+                    },
+                    "waivedFare": null
+                  }
+                },
+                "ADULT": {
+                  "WGA": {
+                    "productId": "WGA|ADT|QLA7PNRO,Q,AUS,DAL,2018-06-12T11:40-05:00,2018-06-12T12:40-05:00,WN,WN,2385,73W|QLA7PNRO,Q,DAL,MDW,2018-06-12T14:05-05:00,2018-06-12T16:20-05:00,WN,WN,2453,73W",
+                    "classOfService": "Q",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "293.02",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "44.78",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "337.80",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "1759"
+                    },
+                    "waivedFare": null
+                  },
+                  "BUS": {
+                    "productId": "BUS|ADT|KZBP,K,AUS,DAL,2018-06-12T11:40-05:00,2018-06-12T12:40-05:00,WN,WN,2385,73W|KZBP,K,DAL,MDW,2018-06-12T14:05-05:00,2018-06-12T16:20-05:00,WN,WN,2453,73W",
+                    "classOfService": "K",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "472.35",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "58.23",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "530.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "5669"
+                    },
+                    "waivedFare": null
+                  },
+                  "ANY": {
+                    "productId": "ANY|ADT|YL,Y,AUS,DAL,2018-06-12T11:40-05:00,2018-06-12T12:40-05:00,WN,WN,2385,73W|YL,Y,DAL,MDW,2018-06-12T14:05-05:00,2018-06-12T16:20-05:00,WN,WN,2453,73W",
+                    "classOfService": "Y",
+                    "passengerType": "ADULT",
+                    "availabilityStatus": "AVAILABLE",
+                    "originalFare": null,
+                    "fare": {
+                      "baseFare": {
+                        "value": "451.89",
+                        "currencyCode": "USD"
+                      },
+                      "totalTaxesAndFees": {
+                        "value": "56.69",
+                        "currencyCode": "USD"
+                      },
+                      "totalFare": {
+                        "value": "508.58",
+                        "currencyCode": "USD"
+                      },
+                      "accrualPoints": "4519"
+                    },
+                    "waivedFare": null
+                  }
+                }
+              }
+            }
+          ],
+          "lowestFare": {
+            "value": "329.98",
+            "currencyCode": "USD"
+          }
+        }
+      ],
+      "promoToken": null
+    }
+  },
+  "success": true,
+  "notifications": null,
+  "uiMetadata": {
+    "proxyLogout": true,
+    "paymentInfoService": true,
+    "discountServiceMaintenanceModeForDotcom": false,
+    "payPalService": true,
+    "discountServiceMaintenanceModeForSwabiz": false,
+    "cvvForSavedCreditCard": false,
+    "chapiVersion": "1.3.2",
+    "lowFareCalendarService": true,
+    "airFirstTimeFlyer": false,
+    "fundsService": true,
+    "maintenance": false,
+    "rapidRewardsMaintenance": false
+  }
+}

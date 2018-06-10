@@ -1,0 +1,1609 @@
+[
+  {
+    "id": "AUS",
+    "displayName": "Austin, TX - AUS",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Texas"
+    ]
+  },
+  {
+    "id": "BWI",
+    "displayName": "Baltimore\/Washington, MD - BWI",
+    "parents": [
+      "WDC"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Maryland",
+      "District of Columbia",
+      "Balmo",
+      "Balmer",
+      "D.C.",
+      "DC"
+    ]
+  },
+  {
+    "id": "BZE",
+    "displayName": "Belize City, Belize - BZE",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+
+    ]
+  },
+  {
+    "id": "BHM",
+    "displayName": "Birmingham, AL - BHM",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Alabama",
+      "Tuscaloosa"
+    ]
+  },
+  {
+    "id": "BOI",
+    "displayName": "Boise, ID - BOI",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Idaho",
+      "Yellowstone"
+    ]
+  },
+  {
+    "id": "BOT",
+    "displayName": "Boston Area Airports",
+    "parents": [
+
+    ],
+    "children": [
+      "BOS",
+      "MHT",
+      "PVD"
+    ],
+    "alt_search_names": [
+
+    ]
+  },
+  {
+    "id": "BOS",
+    "displayName": "Boston Logan, MA - BOS",
+    "parents": [
+      "BOT"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Massachusets",
+      "Providence",
+      "Beantown"
+    ]
+  },
+  {
+    "id": "BUF",
+    "displayName": "Buffalo\/Niagara, NY - BUF",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "New York",
+      "Niagara Falls",
+      "Toronto"
+    ]
+  },
+  {
+    "id": "BUR",
+    "displayName": "Burbank, CA - BUR",
+    "parents": [
+      "LOS"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "California",
+      "Hollywood",
+      "Los Angeles",
+      "Orange County",
+      "Santa Ana",
+      "Ontario",
+      "Universal Studios",
+      "Long Beach",
+      "LGB",
+      "Bob Hope",
+      "L.A."
+    ]
+  },
+  {
+    "id": "SJD",
+    "displayName": "Cabo San Lucas\/Los Cabos, MX - SJD",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Mexico"
+    ]
+  },
+  {
+    "id": "CUN",
+    "displayName": "Cancun, Mexico - CUN",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Mexico"
+    ]
+  },
+  {
+    "id": "CHS",
+    "displayName": "Charleston, SC - CHS",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "South Carolina",
+      "Savannah",
+      "Myrtle Beach"
+    ]
+  },
+  {
+    "id": "CLT",
+    "displayName": "Charlotte, NC - CLT",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "North Carolina",
+      "Concord"
+    ]
+  },
+  {
+    "id": "MDW",
+    "displayName": "Chicago (Midway), IL - MDW",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Illinois",
+      "Ilinois",
+      "Chitown",
+      "Windy City",
+      "ORD",
+      "Ohare",
+      "O'Hare",
+      "Lake Michigan",
+      "Wrigley Field",
+      "Willis Tower"
+    ]
+  },
+  {
+    "id": "CVG",
+    "displayName": "Cincinnati, OH - CVG",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+
+    ]
+  },
+  {
+    "id": "CLE",
+    "displayName": "Cleveland, OH - CLE",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Ohio",
+      "Akron",
+      "Rock and Roll Hall of Fame"
+    ]
+  },
+  {
+    "id": "CMH",
+    "displayName": "Columbus, OH - CMH",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Ohio"
+    ]
+  },
+  {
+    "id": "CRP",
+    "displayName": "Corpus Christi, TX - CRP",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Texas",
+      "Port Aransas"
+    ]
+  },
+  {
+    "id": "DAL",
+    "displayName": "Dallas (Love Field), TX - DAL",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "DFW",
+      "Ft. Worth",
+      "Fort Worth",
+      "Texas"
+    ]
+  },
+  {
+    "id": "DEN",
+    "displayName": "Denver, CO - DEN",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Colorado",
+      "Boulder",
+      "Aspen",
+      "Vail",
+      "Colorado Springs",
+      "Mile High City",
+      "Skiing",
+      "Rockies",
+      "Pikes Peak"
+    ]
+  },
+  {
+    "id": "DSM",
+    "displayName": "Des Moines, IA - DSM",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Iowa"
+    ]
+  },
+  {
+    "id": "DTW",
+    "displayName": "Detroit, MI - DTW",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+
+    ]
+  },
+  {
+    "id": "ELP",
+    "displayName": "El Paso, TX - ELP",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Texas",
+      "Ciudad Juarez"
+    ]
+  },
+  {
+    "id": "FNT",
+    "displayName": "Flint, MI - FNT",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Michigan",
+      "Lausing",
+      "East Lansing"
+    ]
+  },
+  {
+    "id": "FLL",
+    "displayName": "Ft. Lauderdale, FL - FLL",
+    "parents": [
+      "MMA"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Florida",
+      "MIA",
+      "Coral Gables",
+      "Miami",
+      "Boca Raton",
+      "West Palm Beach",
+      "Ft Lauderdale",
+      "Fort Lauderdale",
+      "Spring Break"
+    ]
+  },
+  {
+    "id": "RSW",
+    "displayName": "Ft. Myers, FL - RSW",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Ft. Myers",
+      "Fort Myers",
+      "Florida",
+      "Cape Coral",
+      "Ft. Meyers",
+      "Fort Meyers",
+      "Ft Myers",
+      "Ft Meyers",
+      "Naples"
+    ]
+  },
+  {
+    "id": "GCM",
+    "displayName": "Grand Cayman, Cayman Islands - GCM",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+
+    ]
+  },
+  {
+    "id": "GRR",
+    "displayName": "Grand Rapids, MI - GRR",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Michigan",
+      "Lausing",
+      "East Lansing"
+    ]
+  },
+  {
+    "id": "GSP",
+    "displayName": "Greenville\/Spartanburg, SC - GSP",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+
+    ]
+  },
+  {
+    "id": "HRL",
+    "displayName": "Harlingen, TX - HRL",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Texas",
+      "McAllen",
+      "South Padre",
+      "Spring Break"
+    ]
+  },
+  {
+    "id": "BDL",
+    "displayName": "Hartford, CT - BDL",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Connecticut",
+      "New Haven",
+      "Springfield"
+    ]
+  },
+  {
+    "id": "HAV",
+    "displayName": "Havana, Cuba - HAV",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Havanna",
+      "La Habana"
+    ]
+  },
+  {
+    "id": "HOU",
+    "displayName": "Houston (Hobby), TX - HOU",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Texas",
+      "HUO",
+      "IAH",
+      "George Bush International",
+      "Galveston",
+      "H-Town",
+      "Huoston",
+      "H-Town"
+    ]
+  },
+  {
+    "id": "IND",
+    "displayName": "Indianapolis, IN - IND",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Indiana",
+      "Dayton",
+      "Indy",
+      "Cincinnati"
+    ]
+  },
+  {
+    "id": "JAX",
+    "displayName": "Jacksonville, FL - JAX",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Florida"
+    ]
+  },
+  {
+    "id": "MCI",
+    "displayName": "Kansas City, MO - MCI",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Kansas",
+      "Wheeler",
+      "Show Me",
+      "Missouri"
+    ]
+  },
+  {
+    "id": "LAS",
+    "displayName": "Las Vegas, NV - LAS",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Nevada",
+      "Sin City",
+      "The Strip",
+      "Los Vegas"
+    ]
+  },
+  {
+    "id": "LIR",
+    "displayName": "Liberia, Costa Rica - LIR",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+
+    ]
+  },
+  {
+    "id": "LIT",
+    "displayName": "Little Rock, AR - LIT",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Arkansas",
+      "Jacksonville",
+      "Hot Springs"
+    ]
+  },
+  {
+    "id": "LGB",
+    "displayName": "Long Beach, CA - LGB",
+    "parents": [
+      "LOS"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+
+    ]
+  },
+  {
+    "id": "ISP",
+    "displayName": "Long Island\/Islip, NY - ISP",
+    "parents": [
+      "NWY"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "New York",
+      "Queens",
+      "JFK"
+    ]
+  },
+  {
+    "id": "LAX",
+    "displayName": "Los Angeles, CA - LAX",
+    "parents": [
+      "LOS"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "California",
+      "Irvine",
+      "Long Beach",
+      "Hollywood",
+      "Palm Springs",
+      "Malibu",
+      "City of Angels",
+      "Las Angeles",
+      "Disney",
+      "Burbank",
+      "Orange County",
+      "Santa Ana",
+      "Ontario",
+      "Universal Studios",
+      "LGB"
+    ]
+  },
+  {
+    "id": "LOS",
+    "displayName": "Los Angeles Area Airports",
+    "parents": [
+
+    ],
+    "children": [
+      "BUR",
+      "LAX",
+      "ONT",
+      "SNA",
+      "LGB"
+    ],
+    "alt_search_names": [
+
+    ]
+  },
+  {
+    "id": "SDF",
+    "displayName": "Louisville, KY - SDF",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Kentucky",
+      "Lexington",
+      "Frankfort"
+    ]
+  },
+  {
+    "id": "LBB",
+    "displayName": "Lubbock, TX - LBB",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Texas",
+      "Plainview"
+    ]
+  },
+  {
+    "id": "MHT",
+    "displayName": "Manchester, NH - MHT",
+    "parents": [
+      "BOT"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "New Hampshire",
+      "Portsmouth",
+      "Concord"
+    ]
+  },
+  {
+    "id": "MEM",
+    "displayName": "Memphis, TN - MEM",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Tennessee",
+      "Graceland",
+      "Beale Street"
+    ]
+  },
+  {
+    "id": "MEX",
+    "displayName": "Mexico City, Mexico - MEX",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+
+    ]
+  },
+  {
+    "id": "MMA",
+    "displayName": "Miami Area Airports",
+    "parents": [
+
+    ],
+    "children": [
+      "FLL"
+    ],
+    "alt_search_names": [
+
+    ]
+  },
+  {
+    "id": "MAF",
+    "displayName": "Midland\/Odessa, TX - MAF",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Texas"
+    ]
+  },
+  {
+    "id": "MKE",
+    "displayName": "Milwaukee, WI - MKE",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Wisconsin"
+    ]
+  },
+  {
+    "id": "MSP",
+    "displayName": "Minneapolis\/St. Paul (Terminal 2), MN - MSP",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Minnesota",
+      "Twin Cities"
+    ]
+  },
+  {
+    "id": "MBJ",
+    "displayName": "Montego Bay, Jamaica - MBJ",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Jamaica",
+      "beach",
+      "caribbean"
+    ]
+  },
+  {
+    "id": "BNA",
+    "displayName": "Nashville, TN - BNA",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Tennessee",
+      "opry",
+      "ryman",
+      "music city"
+    ]
+  },
+  {
+    "id": "NAS",
+    "displayName": "Nassau, Bahamas - NAS",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Bahamas",
+      "beach",
+      "caribbean"
+    ]
+  },
+  {
+    "id": "MSY",
+    "displayName": "New Orleans, LA - MSY",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Louisiana",
+      "Luoisiana",
+      "Baton Rouge",
+      "The Big Easy",
+      "Bourbon St.",
+      "The Cresent City",
+      "French Quarter",
+      "Spring Break",
+      "Mardi Gras"
+    ]
+  },
+  {
+    "id": "NWY",
+    "displayName": "New York Area Airports",
+    "parents": [
+
+    ],
+    "children": [
+      "ISP",
+      "LGA",
+      "EWR"
+    ],
+    "alt_search_names": [
+
+    ]
+  },
+  {
+    "id": "LGA",
+    "displayName": "New York (LaGuardia), NY - LGA",
+    "parents": [
+      "NWY"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "New York",
+      "Manhattan",
+      "Bronx",
+      "New Jersey",
+      "NYC",
+      "Queens",
+      "Brooklyn",
+      "The Big Apple",
+      "Empire State",
+      "Times Square",
+      "JFK",
+      "Staten Island"
+    ]
+  },
+  {
+    "id": "EWR",
+    "displayName": "New York\/Newark, NJ - EWR",
+    "parents": [
+      "NWY"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "New York",
+      "Manhattan",
+      "Bronx",
+      "New Jersey",
+      "NYC",
+      "Queens",
+      "Brooklyn",
+      "The Big Apple",
+      "Empire State",
+      "Times Square",
+      "JFK",
+      "Staten Island"
+    ]
+  },
+  {
+    "id": "ORF",
+    "displayName": "Norfolk, VA - ORF",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Virginia",
+      "Newport News"
+    ]
+  },
+  {
+    "id": "NFB",
+    "displayName": "Northwest Florida Beaches Area Airports",
+    "parents": [
+
+    ],
+    "children": [
+      "ECP",
+      "PNS"
+    ],
+    "alt_search_names": [
+
+    ]
+  },
+  {
+    "id": "OAK",
+    "displayName": "Oakland, CA - OAK",
+    "parents": [
+      "SFC"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "California",
+      "Fremont",
+      "Bay",
+      "Berkley"
+    ]
+  },
+  {
+    "id": "OKC",
+    "displayName": "Oklahoma City, OK - OKC",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Oklahoma",
+      "Stillwater",
+      "Tulsa",
+      "Norman",
+      "OKC"
+    ]
+  },
+  {
+    "id": "OMA",
+    "displayName": "Omaha, NE - OMA",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Nebraska",
+      "Sioux City",
+      "Lincoln"
+    ]
+  },
+  {
+    "id": "ONT",
+    "displayName": "Ontario\/LA, CA - ONT",
+    "parents": [
+      "LOS"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "California",
+      "Los Angeles",
+      "San Bernardino",
+      "Las Angeles",
+      "Orange County",
+      "Santa Ana",
+      "Ontario",
+      "Universal Studios",
+      "Long Beach",
+      "LGB"
+    ]
+  },
+  {
+    "id": "SNA",
+    "displayName": "Orange County\/Santa Ana, CA - SNA",
+    "parents": [
+      "LOS"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "California",
+      "Irvine",
+      "Los Angeles",
+      "Las Angeles",
+      "Ontario",
+      "Orange County",
+      "Santa Ana",
+      "Universal Studios",
+      "Long Beach",
+      "LGB",
+      "John Wayne"
+    ]
+  },
+  {
+    "id": "MCO",
+    "displayName": "Orlando, FL - MCO",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Florida",
+      "Tampa",
+      "Disney",
+      "Universal Studios",
+      "SeaWorld",
+      "Sea World"
+    ]
+  },
+  {
+    "id": "ECP",
+    "displayName": "Panama City Beach, FL - ECP",
+    "parents": [
+      "NFB"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Florida",
+      "Tallahassee",
+      "Destin",
+      "Spring Break"
+    ]
+  },
+  {
+    "id": "PNS",
+    "displayName": "Pensacola, FL - PNS",
+    "parents": [
+      "NFB"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Florida",
+      "Destin",
+      "Spring Break",
+      "Mobile",
+      "pensecola"
+    ]
+  },
+  {
+    "id": "PHL",
+    "displayName": "Philadelphia, PA - PHL",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Pennsylvannia",
+      "New Jersey",
+      "Atlantic City",
+      "Philly",
+      "Liberty Bell",
+      "Independence Hall",
+      "Trenton",
+      "Allentown"
+    ]
+  },
+  {
+    "id": "PHX",
+    "displayName": "Phoenix, AZ - PHX",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Arizona",
+      "Tucson",
+      "Sedona",
+      "Grand Canyon",
+      "Flagstaff"
+    ]
+  },
+  {
+    "id": "PIT",
+    "displayName": "Pittsburgh, PA - PIT",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Pennsylvania"
+    ]
+  },
+  {
+    "id": "PDX",
+    "displayName": "Portland, OR - PDX",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Stumptown",
+      "Oregon",
+      "Beaverton",
+      "Vancouver"
+    ]
+  },
+  {
+    "id": "PWM",
+    "displayName": "Portland, ME - PWM",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Maine",
+      "Bangor"
+    ]
+  },
+  {
+    "id": "PVD",
+    "displayName": "Providence, RI - PVD",
+    "parents": [
+      "BOT"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Rhode Island",
+      "Massachusetts",
+      "Connecticut"
+    ]
+  },
+  {
+    "id": "PLS",
+    "displayName": "Providenciales, Turks and Caicos - PLS",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+
+    ]
+  },
+  {
+    "id": "PVR",
+    "displayName": "Puerto Vallarta, MX - PVR",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+
+    ]
+  },
+  {
+    "id": "PUJ",
+    "displayName": "Punta Cana, DO - PUJ",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Dominican Republic",
+      "beach",
+      "caribbean"
+    ]
+  },
+  {
+    "id": "RDU",
+    "displayName": "Raleigh\/Durham, NC - RDU",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "North Carolina",
+      "Chapel Hill",
+      "Greensboro"
+    ]
+  },
+  {
+    "id": "RNO",
+    "displayName": "Reno\/Tahoe, NV - RNO",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Nevada",
+      "Lake Tahoe",
+      "Carson City",
+      "skiiing"
+    ]
+  },
+  {
+    "id": "RIC",
+    "displayName": "Richmond, VA - RIC",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Virginia"
+    ]
+  },
+  {
+    "id": "ROC",
+    "displayName": "Rochester, NY - ROC",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "New York",
+      "Syracuse",
+      "Toronto"
+    ]
+  },
+  {
+    "id": "SMF",
+    "displayName": "Sacramento, CA - SMF",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "California",
+      "Napa",
+      "Yosemite"
+    ]
+  },
+  {
+    "id": "SLC",
+    "displayName": "Salt Lake City, UT - SLC",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Utah",
+      "Provo",
+      "Skiing",
+      "Yellowstone",
+      "Ogden"
+    ]
+  },
+  {
+    "id": "SAT",
+    "displayName": "San Antonio, TX - SAT",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Alamo City",
+      "Texas",
+      "SeaWorld",
+      "Sea World"
+    ]
+  },
+  {
+    "id": "SAN",
+    "displayName": "San Diego, CA - SAN",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "California",
+      "Tijuana",
+      "SeaWorld",
+      "Sea World"
+    ]
+  },
+  {
+    "id": "SFO",
+    "displayName": "San Francisco, CA - SFO",
+    "parents": [
+      "SFC"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "California",
+      "Napa",
+      "San Mateo",
+      "Frisco",
+      "Golden Gate City",
+      "Bay",
+      "Alcatraz",
+      "Palo Alto",
+      "Fremont"
+    ]
+  },
+  {
+    "id": "SFC",
+    "displayName": "San Francisco Area Airports",
+    "parents": [
+
+    ],
+    "children": [
+      "OAK",
+      "SFO",
+      "SJC"
+    ],
+    "alt_search_names": [
+
+    ]
+  },
+  {
+    "id": "SJC",
+    "displayName": "San Jose, CA - SJC",
+    "parents": [
+      "SFC"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "California",
+      "Silicon Valley",
+      "Carmel",
+      "San Hose",
+      "Bay"
+    ]
+  },
+  {
+    "id": "SJO",
+    "displayName": "San Jose, Costa Rica - SJO",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "San Hose"
+    ]
+  },
+  {
+    "id": "SJU",
+    "displayName": "San Juan, PR - SJU",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Puerto Rico",
+      "beach",
+      "caribbean"
+    ]
+  },
+  {
+    "id": "SEA",
+    "displayName": "Seattle\/Tacoma, WA - SEA",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Emerald City",
+      "Washington",
+      "Vancouver"
+    ]
+  },
+  {
+    "id": "GEG",
+    "displayName": "Spokane, WA - GEG",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Washington",
+      "Missoula"
+    ]
+  },
+  {
+    "id": "STL",
+    "displayName": "St. Louis, MO - STL",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Missouri",
+      "Saint Louis",
+      "St. Luois",
+      "Springfield"
+    ]
+  },
+  {
+    "id": "TPA",
+    "displayName": "Tampa, FL - TPA",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Florida",
+      "Orlando",
+      "Bay",
+      "Bush Gardens",
+      "Busch Gardens"
+    ]
+  },
+  {
+    "id": "TUS",
+    "displayName": "Tucson, AZ - TUS",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Arizona",
+      "Nogales"
+    ]
+  },
+  {
+    "id": "TUL",
+    "displayName": "Tulsa, OK - TUL",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Oklahoma",
+      "Stillwater"
+    ]
+  },
+  {
+    "id": "IAD",
+    "displayName": "Washington (Dulles), DC - IAD",
+    "parents": [
+      "WDC"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Capital City",
+      "America Capital",
+      "District of Columbia",
+      "DC",
+      "D.C."
+    ]
+  },
+  {
+    "id": "DCA",
+    "displayName": "Washington (Reagan National), DC - DCA",
+    "parents": [
+      "WDC"
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Capital City",
+      "America Capital",
+      "District of Columbia",
+      "DC",
+      "D.C."
+    ]
+  },
+  {
+    "id": "WDC",
+    "displayName": "Washington, D.C. Area Airports",
+    "parents": [
+
+    ],
+    "children": [
+      "BWI",
+      "IAD",
+      "DCA"
+    ],
+    "alt_search_names": [
+
+    ]
+  },
+  {
+    "id": "PBI",
+    "displayName": "West Palm Beach, FL - PBI",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Florida",
+      "Boca Raton",
+      "Port St. Lucie"
+    ]
+  },
+  {
+    "id": "ICT",
+    "displayName": "Wichita, KS - ICT",
+    "parents": [
+
+    ],
+    "children": [
+
+    ],
+    "altSearchNames": [
+      "Kansas"
+    ]
+  }
+]
