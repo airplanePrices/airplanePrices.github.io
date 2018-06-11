@@ -35,41 +35,54 @@
     </div> <!-- /jumbotron -->
     <div class="abstract-wrap container">
       <h2 class="text-center" id="abstract-header">Abstract</h2>
-      <p class="lead">Our names are Ethan Lee and Mike Considine, and this is our project for Northwestern University's EECS 349 class in the spring of 2018. We can be contacted at <a href="mailto:michaelconsidine2020@u.northwestern.edu" class="email-link">michaelconsidine2020@u.northwestern.edu</a> and <a href="mailto:ethanlee2020@u.northwestern.edu" class="email-link">ethanlee2020@u.northwestern.edu</a>.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="lead">Our names are Ethan Lee and Mike Considine, and this is our project for Northwestern University's EECS 349 class in the spring of 2018. We can be contacted at <a href="mailto:michaelconsidine2020@u.northwestern.edu" class="email-link">michaelconsidine2020@u.northwestern.edu</a> and <a href="mailto:ethanlee2020@u.northwestern.edu" class="email-link">ethanlee2020@u.northwestern.edu</a>.</p>
+      <p class="lead">Our task was to build a machine learning model that predicts the prices of Southwest Airlines flights from 100 domestic (and several out-of-country) airports. This is an interesting and important objective because millions of Americans spend countless hours every year stressing about flight costs and trying to find affordable vacation destinations; by using our model, we could make accurate predictions for one of America’s largest airlines in order to make trip planning easier. We gathered data on roughly 47,000 flights scheduled for the beginning of July as this would simulate buying a plane ticket 6 weeks beforehand, a common metric used by frequent flyers and often one of the most cost-efficient times to make air travel reservations. In addition to the cost of each ticket and whether that flight was sold out, we included other attributes related to the sizes and capacities of all airports, the populations of each city, and the departure and arrival times. Running our data through Weka, we tested a variety of learners, including linear regression, additive regression, nearest neighbor, and locally weighted learning. We found that the linear regression model (specifically using 8-fold cross validation) performed the best, with a correlation coefficient of 0.7577. The most important attributes were the airport codes, the flight times, and whether or not the flight sold out.
+      </p>
     </div> <!-- /container -->
+    <hr class="hr">
     <div class="results-wrap container">
-      <h2 class="text-center" id="results-header">Results</h2>
+      <h2 class="text-center" id="results-header">Key Results</h2>
       <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <div class="row">
+      <div class="row text-center">
         <div class="col-lg-4 col-md-12">
           <div class="card">
-            <img class="card-img-top" src="img/grey.jpg" alt="Card image cap">
+            <h5 class="card-header text-center">Linear Regression</h5>
+            <img class="card-img-top" src="img/linReg8fold.png" alt="...">
+            <hr>
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">These are the results of the linear regression model with 8-fold cross validation. This was our most successful model.</p>
             </div>
           </div> <!-- /card -->
         </div> <!-- /col -->
         <div class="col-lg-4 col-md-12">
           <div class="card">
-            <img class="card-img-top" src="img/grey.jpg" alt="Card image cap">
+            <h5 class="card-header text-center">ZeroR</h5>
+            <img class="card-img-top" src="img/zeroR66split.png" alt="...">
+            <hr>
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">The ZeroR learner's results served as our baseline. ZeroR works by simply using the most common attribute, which makes it suitable for a reference model.</p>
             </div>
           </div> <!-- /card -->
         </div> <!-- /col -->
         <div class="col-lg-4 col-md-12">
           <div class="card">
-            <img class="card-img-top" src="img/grey.jpg" alt="Card image cap">
+            <h5 class="card-header text-center">K-Nearest Neighbor</h5>
+            <img class="card-img-top" src="img/NN100fold.png" alt="...">
+            <hr>
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">These results come from our best non-regression model, K-Nearest Neighbor with 100-fold cross validation and automatic clustering.</p>
             </div>
           </div> <!-- /card -->
         </div> <!-- /col -->
       </div> <!-- /row -->
     </div> <!-- /container -->
+    <hr class="hr">
     <div class="report-wrap container">
       <h2 class="text-center" id="report-header">Report</h2>
     </div> <!-- /container -->
+    <div class="footer text-center">
+      <p class="lead">Mike Considine and Ethan Lee &copy;2018</p>
+    </div>
   <script src="js/jquery-3.2.1.js"></script>
     <script src="js/easing.js"></script>
     <script src="js/bootstrap.min.js"></script>
