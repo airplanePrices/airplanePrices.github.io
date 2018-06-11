@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
       <a class="navbar-brand home-link" href="#jumbo-header">iFly</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,13 +36,13 @@
     <div class="abstract-wrap container">
       <h2 class="text-center" id="abstract-header">Abstract</h2>
       <p class="lead">Our names are Ethan Lee and Mike Considine, and this is our project for Northwestern University's EECS 349 class in the spring of 2018. We can be contacted at <a href="mailto:michaelconsidine2020@u.northwestern.edu" class="email-link">michaelconsidine2020@u.northwestern.edu</a> and <a href="mailto:ethanlee2020@u.northwestern.edu" class="email-link">ethanlee2020@u.northwestern.edu</a>.</p>
-      <p class="lead">Our task was to build a machine learning model that predicts the prices of Southwest Airlines flights from 100 domestic (and several out-of-country) airports. This is an interesting and important objective because millions of Americans spend countless hours every year stressing about flight costs and trying to find affordable vacation destinations; by using our model, we could make accurate predictions for one of America’s largest airlines in order to make trip planning easier. We gathered data on roughly 47,000 flights scheduled for the beginning of July as this would simulate buying a plane ticket 6 weeks beforehand, a common metric used by frequent flyers and often one of the most cost-efficient times to make air travel reservations. In addition to the cost of each ticket and whether that flight was sold out, we included other attributes related to the sizes and capacities of all airports, the populations of each city, and the departure and arrival times. Running our data through Weka, we tested a variety of learners, including linear regression, additive regression, nearest neighbor, and locally weighted learning. We found that the linear regression model (specifically using 8-fold cross validation) performed the best, with a correlation coefficient of 0.7577. The most important attributes were the airport codes, the flight times, and whether or not the flight sold out.
+      <p class="lead">Our task was to build a machine learning model that predicts the prices of Southwest Airlines flights from 100 domestic (and several out-of-country) airports. This is an interesting and important objective because millions of Americans spend countless hours every year stressing about flight costs and trying to find affordable vacation destinations; by using our model, we could make accurate predictions for one of America’s largest airlines in order to make trip planning easier. We gathered data on roughly 47,000 flights scheduled for the beginning of July as this would simulate buying a plane ticket 6 weeks beforehand, a common metric used by frequent flyers and often one of the most cost-efficient times to make air travel reservations. In addition to the cost of each ticket and whether that flight was sold out, we included other attributes related to the sizes and capacities of all airports, the populations of each city, and the departure and arrival times. Running our data through Weka, we tested a variety of learners, including linear regression, additive regression, nearest neighbor, and locally weighted learning.
       </p>
     </div> <!-- /container -->
     <hr class="hr">
     <div class="results-wrap container">
       <h2 class="text-center" id="results-header">Key Results</h2>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="lead">We tested each of the aforementioned learners multiple times with different settings: cross validation with different numbers of folds, models without cross validation (instead using 66% of the dataset as training data and the rest as test data), and various combinations of attributes. We found that the linear regression model (specifically using 8-fold cross validation) performed the best, with a correlation coefficient of 0.7577. The most important attributes were the airport codes, the flight times, and whether or not the flight sold out.
       <div class="row text-center">
         <div class="col-lg-4 col-md-12">
           <div class="card">
@@ -79,6 +79,65 @@
     <hr class="hr">
     <div class="report-wrap container">
       <h2 class="text-center" id="report-header">Report</h2>
+      <h4>Our Project</h4>
+      <p class="lead">Air travel is the quickest and most efficient way to travel long distances and millions of people a year buy plane tickets to travel for leisure, work, or emergencies. As avid travellers ourselves, we often experience a feeling of uncertainty buying tickets, not knowing if that purchase was a good deal or not. Our model is an attempt to resolve this issue. By using past ticket prices and information, we can predict the price of a ticket, and compare that to the actual price offered to determine if a ticket is a good deal.</p>
+      <h4>Data Collection</h4>
+      <p class="lead">In order to create our dataset, we wrote Python scripts to crawl the Southwest Airlines site and to find the prices of flights between our 100 airports on July 1st, 2018. The script used various default settings: it searched for flights that would arrive and depart at any time during the day, finding prices for a single adult passenger with no senior discount and no extra baggage. The script returned data in JSON format for each flight: the cost, the arrival and departure times, the number of RapidRewards points accrued, whether the flight was sold out, and the three-letter codes of the arrival and departure airports. However, we quickly realized that the number of accrual points was related directly to the cost of the ticket, so we removed this attribute. We then parsed this JSON data and stored it in a Mongo database, which we finally exported as a CSV file. These scripts took several hours to run, but returned to us information about roughly 47,000 flights. We combined the flight data with several manually-collected attributes: the populations of each relevant city, the sizes of each airport (in acres), the average number of yearly passengers per airport, and the average number of yearly sunny days in each relevant city. This gave us a dataset with 14 attributes and roughly 47,000 instances, which we would later feed through Weka.
+      </p>
+      <h4>Feature Selection</h4>
+      <p class="lead">Our dataset consisted of about 47,000 different flights scheduled for the start of July. We included 13 attributes (excluding ticket cost)  to predict the cost of a ticket:</p>
+      <p class="lead">
+      <ul>
+        <li class="lead">Whether or not the flight was sold out</li>
+        <li class="lead">The departure and arrival times of the flight</li>
+        <li class="lead">The average number of yearly passengers through both departure and arrival cities</li>
+        <li class="lead">The size of both departure and arrival cities</li>
+        <li class="lead">Airport codes of the both departure and arrival cities</li>
+        <li class="lead">Airport populations of both departure and arrival cities</li>
+        <li class="lead">Average numbers of yearly sunny days of both the departure and arrival cities</li>
+      </ul>
+      <h4>Models Tested</h4>
+      <p class="lead">Given that we wanted our model to predict the cost of flight tickets (a numerical value), we decided to start by testing linear regression models. We achieved our highest correlation score of 0.7577 through this model, but we decided to test other methods as well (best model for each learner type shown in the table below), although none of the other models were as effective as our linear regression model.</p>
+      <div class="container">
+        <table class="table table-hover table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Model Tested</th>
+              <th scope="col">Correlation Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Additive Regression (10-fold)</td>
+              <td>0.3440</td>
+            </tr>
+            <tr>
+              <td>Locally Weighted Learning (66% split)</td>
+              <td>0.3008</td>
+            </tr>
+            <tr>
+              <td>Linear Regression (8-fold)</td>
+              <td>0.7577</td>
+            </tr>
+            <tr>
+              <td>Nearest Neighbor (100-fold)</td>
+              <td>0.6824</td>
+            </tr>
+            <tr>
+              <td>ZeroR</td>
+              <td>0.0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="lead">Our best results from our linear regression model gave us a mean absolute error of 35.15, meaning that on average, our prediction was $35 above or below the actual price. Because prices generally fell between the $150-$350 price range, with an average cost of $206.76, we think that in the scope of this project our model achieved the desired results even with a 17% average error. Our goal was to find if a ticket price was fair or not, and a difference of $35 is small enough for our model to be useful in the real world.</p>
+      <p class="lead">We initially expected (and our experimentation confirmed) that linear regression would be the best learner for this dataset. This is because regression is generally suited to numerical predictions, and since it assigns weights to each attribute, it was able to focus more on the most important attributes while assigning less significant weights to the less relevant attributes. Even though our dataset had categorical variables like the departure and arrival airports, Weka automatically converts these to continuous values by weighting the combinations of the presence or absence of these values.
+      </p>
+      <h4>Conclusions and Future Work</h4>
+      <p class="lead">In future iterations of this project, we would work to more closely determine which sets of attributes were most effective. We tried several different combinations of attributes during our testing, but none granted better results than simply using all 14. We believe that with more experimentation we could find a more effective grouping of features and thus would be able to create a more efficient and accurate model. However, within the scope of this project, we believe that we achieved positive and useful results.
+      </p>
+      <h4>Contributions</h4>
+      <p class="lead">Mike was responsible for the web crawler implementation and data collection, while Ethan worked on testing various models and combinations of attributes. Both members contributed to the final report and website.</p>
     </div> <!-- /container -->
     <div class="footer text-center">
       <p class="lead">Mike Considine and Ethan Lee &copy;2018</p>
