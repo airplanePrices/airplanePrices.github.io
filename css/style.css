@@ -17,6 +17,9 @@ HOMEPAGE
 .jumbotron {
   background-color: #e3f2fd;
 }
+.fa-github {
+  font-size: 2em;
+}
 .email-link {
   text-decoration: none;
 }
