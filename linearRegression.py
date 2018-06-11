@@ -6,8 +6,9 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 import sklearn
+import sys
 
-def MakeLinearRegressionModel(filename):
+def MakeLinearRegressionModel(filename, drawGraph):
   dataset = pd.read_csv(filename, error_bad_lines=False)
   dataset = dataset[:42000]
   dataset = dataset.apply(pd.to_numeric, errors='ignore')
@@ -16,18 +17,7 @@ def MakeLinearRegressionModel(filename):
 
   lrModel = LinearRegression()
 
-  print(len(X))
-  print(len(dataset.cost))
   lrModel.fit(X, dataset.cost)
-  correlation = dict(zip(list(X.columns), list(lrModel.coef_)))
-  print(correlation)
-
-  # plotting the predicted price vs actual price
-  plt.scatter(dataset.cost, lrModel.predict(X), marker='.')
-  plt.xlabel("Prices")
-  plt.ylabel("Predicted Prices")
-  plt.title("Actual prices vs predicted prices")
-  plt.show()
 
   mseFull = np.mean((dataset.cost - lrModel.predict(X)) ** 2)
   print(mseFull)
@@ -40,8 +30,19 @@ def MakeLinearRegressionModel(filename):
 
   mseTraindata = np.mean((y_train - lmTest.predict(x_train)) ** 2)
   mseTestdata = np.mean((y_test - lmTest.predict(x_test)) ** 2)
-  print("train: " + str(mseTraindata))
-  print("test: " + str(mseTestdata))
+  print("train MSE: " + str(mseTraindata))
+  print("test MSE: " + str(mseTestdata))
+
+  # plotting the predicted price vs actual price
+  if drawGraph:
+    plt.scatter(dataset.cost, lrModel.predict(X), marker='.')
+    plt.xlabel("Prices")
+    plt.ylabel("Predicted Prices")
+    plt.title("Actual prices vs predicted prices")
+    plt.show()
 
 if __name__ == "__main__":
-  MakeLinearRegressionModel('flights_fix_scores_v2.csv')
+  if len(sys.argv) > 2:
+    MakeLinearRegressionModel('dataset/' + sys.argv[1], True)
+  else:
+    MakeLinearRegressionModel('dataset/' + sys.argv[1], False)
