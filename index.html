@@ -87,7 +87,6 @@
       </p>
       <h4>Feature Selection</h4>
       <p class="lead">Our dataset consisted of about 47,000 different flights scheduled for the start of July. We included 13 attributes (excluding ticket cost)  to predict the cost of a ticket:</p>
-      <p class="lead">
       <ul>
         <li class="lead">Whether or not the flight was sold out</li>
         <li class="lead">The departure and arrival times of the flight</li>
@@ -97,6 +96,7 @@
         <li class="lead">Airport populations of both departure and arrival cities</li>
         <li class="lead">Average numbers of yearly sunny days of both the departure and arrival cities</li>
       </ul>
+      <p class="lead">We originally started with two additional attributes, but we decided to remove them. These included the number of Southwest RapidRewards points accrued for purchasing the ticket, and the path of travel, a string containing the codes of all airports that the plane would land at (e.g. "BWI-AUS" would indicate that the plane traveled from Baltimore to Austin, whereas "BWI-MDW-AUS" would indicate the same flight but with a layover in Chicago). We decided to exclude these attributes because the path was too difficult to encode in a way where it would be useful, and the number of RapidRewards points accrued was directly related to the cost of the ticket (so our model would not have been doing any actual predicting if it used this information).
       <h4>Models Tested</h4>
       <p class="lead">Given that we wanted our model to predict the cost of flight tickets (a numerical value), we decided to start by testing linear regression models. We achieved our highest correlation score of 0.7577 through this model, but we decided to test other methods as well (best model for each learner type shown in the table below), although none of the other models were as effective as our linear regression model.</p>
       <div class="container">
