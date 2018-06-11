@@ -139,6 +139,90 @@
       </p>
       <h4>Contributions</h4>
       <p class="lead">Mike was responsible for the web crawler implementation and data collection, while Ethan worked on testing various models and combinations of attributes. Both members contributed to the final report and website.</p>
+      <h4>All Correlation Scores</h4>
+      <p class="lead">Below can be found our complete list of results from Weka for various models. Each of these was tested on the dataset with all 14 attributes, as eliminating attributes always resulted in lower scores for our models. To download images of comprehensive score reports (including outputs like absolute mean error, mean squared error, etc.) and all CSV files including each model's predicted values and their comparisons to the actual prices, <a href="outputs.zip" download>click here</a>.</p>
+      <div class="container">
+        <table class="table table-hover table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Model Tested</th>
+              <th scope="col">Settings</th>
+              <th scope="col">Correlation Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Additive Regression</td>
+              <td>66% Split</td>
+              <td>0.3390</td>
+            </tr>
+            <tr>
+              <td>Additive Regression</td>
+              <td>5-Fold CV</td>
+              <td>0.3421</td>
+            <tr>
+            <tr>
+              <td>Additive Regression</td>
+              <td>10-Fold CV</td>
+              <td>0.3440</td>
+            </tr>
+            <tr>
+              <td>Additive Regression</td>
+              <td>50-Fold CV</td>
+              <td>0.3416</td>
+            </tr>
+            <tr>
+              <td>Locally Weighted Learning</td>
+              <td>66% Split</td>
+              <td>0.3008</td>
+            </tr>
+            <tr>
+              <td>Linear Regression</td>
+              <td>2-Fold CV</td>
+              <td>0.7472</td>
+            </tr>
+            <tr>
+              <td>Linear Regression</td>
+              <td>8-Fold CV</td>
+              <td>0.7577</td>
+            </tr>
+            <tr>
+              <td>Linear Regression</td>
+              <td>10-Fold CV</td>
+              <td>0.7566</td>
+            </tr>
+            <tr>
+              <td>Nearest Neighbor</td>
+              <td>66% Split</td>
+              <td>0.6556</td>
+            </tr>
+            <tr>
+              <td>Nearest Neighbor</td>
+              <td>5-Fold CV</td>
+              <td>0.6697</td>
+            </tr>
+            <tr>
+              <td>Nearest Neighbor</td>
+              <td>10-Fold CV</td>
+              <td>0.6775</td>
+            </tr>
+            <tr>
+              <td>Nearest Neighbor</td>
+              <td>50-Fold CV</td>
+              <td>0.6821</td>
+            <tr>
+              <td>Nearest Neighbor</td>
+              <td>100-Fold CV</td>
+              <td>0.6824</td>
+            </tr>
+            <tr>
+              <td>ZeroR</td>
+              <td>66% Split</td>
+              <td>0.0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div> <!-- /container -->
     <div class="footer text-center">
       <p class="lead">Mike Considine and Ethan Lee &copy;2018</p>
