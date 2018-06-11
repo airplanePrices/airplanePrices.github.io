@@ -44,7 +44,7 @@
     <hr class="hr">
     <div class="results-wrap container">
       <h2 class="text-center" id="results-header">Key Results</h2>
-      <p class="lead">We tested each of the aforementioned learners multiple times with different settings: cross validation with different numbers of folds, models without cross validation (instead using 66% of the dataset as training data and the rest as test data), and various combinations of attributes. We found that the linear regression model (specifically using 8-fold cross validation) performed the best, with a correlation coefficient of 0.7577. The most important attributes were the airport codes, the flight times, and whether or not the flight sold out.
+      <p class="lead">We tested each of the aforementioned learners multiple times with different settings: cross validation with different numbers of folds, models without cross validation (instead using 66% of the dataset as training data and the rest as test data), and various combinations of attributes. We found that the linear regression model (specifically using 8-fold cross validation) performed the best, with a correlation coefficient of 0.7577. The models that used all attributes were the most effective, and the most important attributes were the airport codes, the flight times, and whether or not the flight sold out.
       <div class="row text-center">
         <div class="col-lg-4 col-md-12">
           <div class="card">
@@ -136,11 +136,24 @@
       <p class="lead">Our best results from our linear regression model gave us a mean absolute error of 35.15, meaning that on average, our prediction was $35 above or below the actual price. Because prices generally fell between the $150-$350 price range, with an average cost of $206.76, we think that in the scope of this project our model achieved the desired results even with a 17% average error. Our goal was to find if a ticket price was fair or not, and a difference of $35 is small enough for our model to be useful in the real world.</p>
       <p class="lead">We initially expected (and our experimentation confirmed) that linear regression would be the best learner for this dataset. This is because regression is generally suited to numerical predictions, and since it assigns weights to each attribute, it was able to focus more on the most important attributes while assigning less significant weights to the less relevant attributes. Even though our dataset had categorical variables like the departure and arrival airports, Weka automatically converts these to continuous values by weighting the combinations of the presence or absence of these values.
       </p>
+      <h4>Niave Linear Regression Implementation</h4>
+      <div class="row">
+        <div class="col-3">
+          <figure class="figure">
+            <img src="img/LRModel.png" class="figure-img img-fluid rounded" alt="...">
+            <figcaption class="figure-caption">The results of our naive linear regression model</figcaption>
+          </figure>
+        </div>
+        <div class="col-9">
+          <p class="lead">After our initial theory that linear regression would be the best model for this type of data, we decided to attempt to implement our own linear regression model (although with very minimal success). Our biggest problem was figuring out how to represent our categorical variables (destination and departure airports). One method that we stumbled upon was defining each categorical variable as the parts that comprise it. We defined each categorical variable as the sum of the normalized attributes that it correlates to (city population, airport size, annual passengers, and sunny days). We then ran this data through a Python script to generate a linear regression model. The results are shown in the figure to the left. As can be seen from the image, this model is extremely inaccurate. After running the model on separate training and test data, we achieved a mean squared error of 4380. We believe that this high error is due to our attempts to represent our categorical features as arbitrary combinations of the features they correspond to.
+          </p>
+        </div>
+      </div> <!-- /row -->
       <h4>Conclusions and Future Work</h4>
       <p class="lead">In future iterations of this project, we would work to more closely determine which sets of attributes were most effective. We tried several different combinations of attributes during our testing, but none granted better results than simply using all 14. We believe that with more experimentation we could find a more effective grouping of features and thus would be able to create a more efficient and accurate model. However, within the scope of this project, we believe that we achieved positive and useful results.
       </p>
       <h4>Contributions</h4>
-      <p class="lead">Mike was responsible for the web crawler implementation and data collection, while Ethan worked on testing various models and combinations of attributes. Both members contributed to the final report and website.</p>
+      <p class="lead">Mike was responsible for the web crawler implementation/data collection and the website, while Ethan worked on testing various models and combinations of attributes in addition to implementing his own machine learning model. Both members contributed to the final report.</p>
       <h4>All Correlation Scores</h4>
       <p class="lead">Below can be found our complete list of results from Weka for various models. Each of these was tested on the dataset with all 14 attributes, as eliminating attributes always resulted in lower scores for our models. To download images of comprehensive score reports (including outputs like absolute mean error, mean squared error, etc.) and all CSV files including each model's predicted values and their comparisons to the actual prices, <a href="outputs.zip" download>click here</a>.</p>
       <div class="container">
