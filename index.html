@@ -140,13 +140,13 @@
       </p>
       <h4>Niave Linear Regression Implementation</h4>
       <div class="row">
-        <div class="col-3">
+        <div class="col-lg-4 col-md-4 col-sm-12">
           <figure class="figure">
             <img src="img/LRModel.png" class="figure-img img-fluid rounded" alt="...">
             <figcaption class="figure-caption">The results of our naive linear regression model</figcaption>
           </figure>
         </div>
-        <div class="col-9">
+        <div class="col-lg-8 col-md-8 col-sm-12">
           <p class="lead">After our initial theory that linear regression would be the best model for this type of data, we decided to attempt to implement our own linear regression model (although with very minimal success). Our biggest problem was figuring out how to represent our categorical variables (destination and departure airports). One method that we stumbled upon was defining each categorical variable as the parts that comprise it. We defined each categorical variable as the sum of the normalized attributes that it correlates to (city population, airport size, annual passengers, and sunny days). We then ran this data through a Python script to generate a linear regression model. The results are shown in the figure to the left. As can be seen from the image, this model is extremely inaccurate. After running the model on separate training and test data, we achieved a mean squared error of 4380. We believe that this high error is due to our attempts to represent our categorical features as arbitrary combinations of the features they correspond to.
           </p>
         </div>
